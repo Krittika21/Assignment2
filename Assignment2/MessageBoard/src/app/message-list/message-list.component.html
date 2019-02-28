@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+  <!--<a href="#" id="new-button">New</a>-->
+    <button type="submit" class="btn btn-default">
+  Add Post
+</button>
+  <div class="container">
+  
+    <h1>Board Of Messages</h1>
+    <hr/>
+
+  
+  
+  <table class="table" style="width:100%">
+   <!--<tr *ngfor="Let elements of table">
+    <td>
+      <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-thumbs-up"></span> Like
+        </button>
+      <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-comment"></span> Comment</button>
+     <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-list-alt"></span> details
+        </button>
+    </td>
+
+     </tr>-->
+  
+    <tr>
+      <td>1</td>
+      <td>Smith</td>
+      <td> first message </td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>Jackson</td>
+      <td>second message</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Doe</td>
+      <td>third message</td>
+    </tr>
+      
+  </table>
+
+    </div>
+
+   
+</body>
+</html>
+
+ <p>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-thumbs-up"></span> Like
+        </button>
+      <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-comment"></span> Comment</button>
+     <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-list-alt"></span> details
+        </button>
+      </p>
+
+<router-outlet></router-outlet>
+<!--<a href="#" id="new-button">New</a>
+<table>
+<thead>
+    <tr>
+        <th>Date</th>
+        <th>Distance in meters</th>
+        <th>Time</th>
+        <th>Average speed</th>
+        <th>Commands</th>
+    </tr>
+</thead>-->
+<!--<tbody>
+    <tr *ngFor="let joggingInfo of joggingData"> 
+        <td>{{ joggingInfo.date | date:'shortDate' }}</td>
+        <td>{{ joggingInfo.distanceInMeters | number: '1.2-2' }}</td>
+        <td>{{ joggingInfo.timeInSeconds / 60 | number: '1.0-0' }}:{{ joggingInfo.timeInSeconds % 60 |number: '2.0-0' }}</td>
+        <td>{{ (joggingInfo.distanceInMeters / joggingInfo.timeInSeconds) * 3.6 | number:'1.2-2' }}</td>
+        <td>
+            <a href="#" (click)="editRecord(this)">Edit</a>
+            <a href="#" (click)="deleteRecord(this)">Delete</a>
+        </td>
+    </tr>
+</tbody>-->
+<!--</table>-->
